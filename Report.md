@@ -50,9 +50,9 @@ Here is a numbered list:
 4. Commit and push
 
 Here are some colored words using HTML in Markdown:
-<span style="color:red">Git tracks changes</span>
-<span style="color:blue">GitHub hosts repositories</span>
-<span style="color:green">Markdown formats documents</span>
+- <span style="color:red">Git tracks changes</span>  
+- <span style="color:blue">GitHub hosts repositories</span>  
+- <span style="color:green">Markdown formats documents</span>
 
 Here is a table:
 | Command | Purpose |
