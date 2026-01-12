@@ -9,17 +9,22 @@ After creating the repository on GitHub, I cloned it to my local computer using 
 I also added an image file called `MRI_instrumentation.png` to the repository.
 
 Once all files were added, I used Git commands to upload my work:
-- `git add .` to stage the files  
-- `git commit -m "Initial commit: added README, report, and image"` to save a snapshot of my changes
-- `git pull --rebase origin main` and `git push` to send the changes to GitHub  
+- `git add .` to stage the initial files  
+- `git commit -m "Initial commit: added README, report, and image"` to save a snapshot of my changes  
+- `git pull --rebase origin main` and `git push` to synchronize with GitHub and upload the changes  
 
-After pushing my work to GitHub, I created a GitHub Issue in the repository to practice using GitHub’s issue-tracking system. This helped me understand how tasks and ideas can be managed within a project.
+After refining my report, I made another update:
+- `git add Report.md` to stage the revised report  
+- `git commit -m "Refine story section of report"` to save the updated version  
+- `git pull --rebase origin main` and `git push` to upload the final changes to GitHub  
+
+After pushing my work to GitHub, I created a GitHub Issue in the repository to practice using GitHub’s issue-tracking system.
 
 ---
 
 ## 2. Reflection: What I Learned
 
-From this lab, I learned that **Git** is a version control system that tracks changes in files, while **GitHub** is an online platform that hosts Git repositories and makes collaboration easier.
+From this lab, I learned that Git is a version control system that tracks changes in files, while GitHub is an online platform that hosts Git repositories and makes collaboration easier.
 
 I learned how to:
 - Create a repository on GitHub  
@@ -30,7 +35,7 @@ I learned how to:
 
 I also learned what happens when the remote GitHub repository already contains commits. When my first `git push` was rejected, I learned that I needed to run `git pull --rebase origin main` to synchronize my local history with the remote repository before pushing again.
 
-I am still a little confused about when to use **branches** versus **forks**, especially in large collaborative projects. I understand that both are used to work on different versions of a project, but I would like more practice to fully understand their differences.
+I am still a little confused about when to use branches versus forks, especially in large collaborative projects. I understand that both are used to work on different versions of a project, but I would like more practice to fully understand their differences.
 
 ---
 
@@ -54,6 +59,8 @@ Here are some colored words using HTML in Markdown:
 - <span style="color:blue">GitHub hosts repositories</span>  
 - <span style="color:green">Markdown formats documents</span>
 
+But it seems it doesn't work.
+
 Here is a table:
 | Command | Purpose |
 |--------|---------|
@@ -68,6 +75,8 @@ Here is a table:
 
 ### Screenshot of my GitHub repository or issue
 ![GitHub Screenshot](repo_screenshot.png)
+
+![GitHub Issue](repo_screenshot.png)
 
 ### Image added to this repository
 ![MRI Instrumentation](MRI_instrumentation.png)
