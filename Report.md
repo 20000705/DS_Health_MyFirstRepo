@@ -14,7 +14,7 @@ Once all files were added, I used Git commands to upload my work:
 - `git pull --rebase origin main` and `git push` to synchronize with GitHub and upload the changes  
 
 After refining my report, I made another update:
-- `git add Report.md` to stage the revised report  
+- `git add Report.md issue.png repo_screenshot.png` to stage the revised report and visuals
 - `git commit -m "Refine story section of report"` to save the updated version  
 - `git pull --rebase origin main` and `git push` to upload the final changes to GitHub  
 
