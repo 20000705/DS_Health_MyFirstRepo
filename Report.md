@@ -1,5 +1,3 @@
-# DS_Health_MyFirstRepo
-
 # Lab 1 – GitHub Basics
 
 ## 1. Story
@@ -49,10 +47,14 @@ Here is a numbered list:
 1. Create a repository  
 2. Clone the repository  
 3. Add files  
-4. Commit and push  
+4. Commit and push
+
+Here are some colored words using HTML in Markdown:
+- <span style="color:red">Git tracks changes</span>  
+- <span style="color:blue">GitHub hosts repositories</span>  
+- <span style="color:green">Markdown formats documents</span>  
 
 Here is a table:
-
 | Command | Purpose |
 |--------|---------|
 | `git clone` | Download a repository |
