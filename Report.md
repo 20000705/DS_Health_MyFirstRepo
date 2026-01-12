@@ -76,7 +76,7 @@ Here is a table:
 ### Screenshot of my GitHub repository or issue
 ![GitHub Screenshot](repo_screenshot.png)
 
-![GitHub Issue](repo_screenshot.png)
+![GitHub Issue](issue.png)
 
 ### Image added to this repository
 ![MRI Instrumentation](MRI_instrumentation.png)
